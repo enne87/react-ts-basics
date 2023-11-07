@@ -1,0 +1,11 @@
+1. Dynamische Werte können mithilfe geschweifter Klammern ausgegeben werden (z.B. <p>{someVariable}</p>).
+2. Analysiere das concepts Array: Es handelt sich um ein Array mit Objekten als Array-Elementen - behalte dies im Hinterkopf, wenn du versuchst, die Daten auf dem Bildschirm auszugeben.
+3. Greife auf Array-Elemente über [Index] zu (z.B. [0] für das erste Array-Element).
+4. Greife auf Objekteigenschaften über die "Punkt-Notation" zu (z.B. someObject.age, um den Wert in einer Eigenschaft namens age abzurufen).
+5. Teile die Komponenten so auf, dass du (potenziell wiederverwendbare) UI-Bausteine erhältst.
+6. Versuche nicht zu detailliert zu sein (z.B. es ergibt vielleicht keinen Sinn, eine separate Komponente für das <p> im <li>-Element zu erstellen).
+7. Verwende "Props", um Daten in eine Komponente zu übergeben.
+8. Beachte, dass "Props" immer ein Objekt ist - es wird automatisch von React erstellt und an eine Komponentenfunktion übergeben.
+9. Das "Props"-Objekt wird alle benutzerdefinierten Komponenten-"Attribute" als Eigenschaften enthalten - z.B. <User age={33} /> wird ein "Props"-Objekt erhalten, das eine Eigenschaft namens age enthält.
+10. Es ist deine Komponente, daher stehen die Namen der Props dir frei! Aber du musst denselben Namen sowohl zum Setzen (<User age={31} />) als auch zum Abrufen der Werte (props.age) verwenden.
+11. Vergiss nicht, so viele Variable wie möglich (Props, das concepts-Array, etc.) zu typisieren!!
