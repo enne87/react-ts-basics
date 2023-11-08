@@ -24,3 +24,6 @@ const formatter = new Intl.NumberFormat('en-US', {
 
 // use like this:
 formatter.format(yourValue);
+
+11. The calculation for the total interest should be: savingsEndOfYear - initialInvestment - yearlyContribution * year.
+12. The calculation for the invested capital should be: initialInvestment + yearlyContribution * year.
