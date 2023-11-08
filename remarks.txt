@@ -8,7 +8,7 @@ Hinweise:
     - Änderungen der Benutzereingabe (in den verschiedenen <input />-Feldern)
 
 4. Überlege, ob du eine generische/gemeinsame Funktion zur Verarbeitung von Benutzereingabeereignissen verwenden möchtest (du musst das jedoch nicht tun).
-5. Verwalte den Eingabezustand als ganzes Objeket oder via einzelne State Slices - wie du möchtest!
+5. Verwalte den Eingabezustand als ganzes Objekt oder via einzelne State Slices - wie du möchtest!
 6. Vergiss nicht, den Zustand nach oben zu heben (lift-the-state-up).
 7. Fühle dich frei, die bereitgestellte calculateHandler-Funktion() zu ändern - möglicherweise kann die Berechnungslogik direkt in die Komponentenfunktion verschoben werden.
 8. Im Zusammenhang mit dem vorherigen Punkt: Überlege, ob du die Berechnungsergebnisse aus dem vorhandenem Zustand ableiten kannst (anstatt sie als neuen Zustand zu verwalten).
